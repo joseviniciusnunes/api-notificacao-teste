@@ -8,4 +8,5 @@ metadata:
 spec:
   type: openapi
   lifecycle: beta
+  owner: team-d
   url: https://raw.githubusercontent.com/joseviniciusnunes/api-teste-node-express/master/doc.yaml
