@@ -18,4 +18,4 @@ metadata:
   name: doc-api-swagger
 spec:
   type: openapi
-  url: https://github.com/joseviniciusnunes/api-teste-node-express/blob/master/doc.yaml
+  url: https://raw.githubusercontent.com/joseviniciusnunes/api-teste-node-express/master/doc.yaml
