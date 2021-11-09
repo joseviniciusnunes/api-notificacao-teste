@@ -9,4 +9,11 @@ spec:
   type: service
   lifecycle: beta
   owner: team-d
-
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: doc-api-swagger
+spec:
+  type: openapi
+  url: https://raw.githubusercontent.com/joseviniciusnunes/api-teste-node-express/master/doc.yaml
