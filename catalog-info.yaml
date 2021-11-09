@@ -4,7 +4,7 @@ metadata:
   name: teste-react
   annotations:
     github.com/project-slug: joseviniciusnunes/teste-react  
-    backstage.io/techdocs-ref: url:https://github.com/joseviniciusnunes/api-teste-node-express/blob/master/doc.yaml    
+    backstage.io/techdocs-ref: url:https://raw.githubusercontent.com/joseviniciusnunes/api-teste-node-express/master/doc.yaml?token=AFLPIHE7FRZMJTJNFXEQIGDBRHFE2    
 spec:
   type: other
   lifecycle: unknown
