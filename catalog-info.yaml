@@ -16,4 +16,4 @@ metadata:
   name: frobs-awesome-api
 spec:
   type: openapi
-  url: ./doc.yaml
+  url: https://github.com/joseviniciusnunes/api-teste-node-express/blob/master/doc.yaml
