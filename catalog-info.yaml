@@ -5,10 +5,8 @@ metadata:
   annotations:
     github.com/project-slug: joseviniciusnunes/teste-react  
     backstage.io/techdocs-ref: dir:.   
-    backstage.io/api-definition-openapi: ./doc.yaml
 spec:
   type: openapi
   lifecycle: production
   owner: team-d
-  definition: |
-    $yaml: ./doc.yaml
+  definition: $yaml: ./doc.yaml
