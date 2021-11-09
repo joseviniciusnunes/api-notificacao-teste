@@ -10,4 +10,4 @@ spec:
   lifecycle: production
   owner: team-d
   definition:
-    $text: https://petstore.swagger.io/v2/swagger.json
+    $yaml: https://raw.githubusercontent.com/joseviniciusnunes/api-teste-node-express/master/doc.yaml
