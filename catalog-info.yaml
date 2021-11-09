@@ -4,7 +4,7 @@ metadata:
   name: teste-react
   annotations:
     github.com/project-slug: joseviniciusnunes/teste-react  
-    backstage.io/techdocs-ref: url:./README.md    
+    backstage.io/techdocs-ref: dir:.    
 spec:
   type: other
   lifecycle: unknown
