@@ -7,7 +7,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.    
 spec:
   type: service
-  lifecycle: unknown
+  lifecycle: beta
   owner: team-d
 ---
 apiVersion: backstage.io/v1alpha1
