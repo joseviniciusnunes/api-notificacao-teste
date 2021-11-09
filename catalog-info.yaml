@@ -9,5 +9,5 @@ spec:
   type: openapi
   lifecycle: production
   owner: team-d
-  definition: 
-    $yaml: ./doc.yaml
+  definition:
+    $text: https://petstore.swagger.io/v2/swagger.json
