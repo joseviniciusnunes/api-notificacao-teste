@@ -9,8 +9,6 @@ spec:
   type: service
   lifecycle: unknown
   owner: team-d
-  implements-apis:
-    - doc-api-swagger  
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
