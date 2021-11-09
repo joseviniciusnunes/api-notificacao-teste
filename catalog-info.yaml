@@ -9,4 +9,5 @@ spec:
   type: openapi
   lifecycle: production
   owner: team-d
-  definition: $yaml: ./doc.yaml
+  definition: 
+    $yaml: ./doc.yaml
