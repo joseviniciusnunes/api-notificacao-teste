@@ -9,4 +9,16 @@ spec:
   type: openapi
   lifecycle: beta
   owner: team-d
-  url: https://raw.githubusercontent.com/joseviniciusnunes/api-teste-node-express/master/doc.yaml
+  definition: |
+      openapi: "3.0.0"
+      info:
+        version: 1.0.0
+        title: Artist API
+        license:
+          name: MIT
+      servers:
+        - url: http://artist.spotify.net/v1
+      paths:
+        /artists:
+          get:
+            summary: List all artists
