@@ -1,19 +1,22 @@
+#apiVersion: backstage.io/v1alpha1
+#kind: Component
+#metadata:
+#  name: teste-api-node
+#  annotations:
+#    github.com/project-slug: joseviniciusnunes/teste-react  
+#    backstage.io/techdocs-ref: dir:.    
+#spec:
+#  type: service
+#  lifecycle: beta
+#  owner: team-d
+#---
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: teste-api-node
   annotations:
     github.com/project-slug: joseviniciusnunes/teste-react  
-    backstage.io/techdocs-ref: dir:.    
-spec:
-  type: service
-  lifecycle: beta
-  owner: team-d
----
-apiVersion: backstage.io/v1alpha1
-kind: API
-metadata:
-  name: doc-api-swagger
+    backstage.io/techdocs-ref: dir:.   
 spec:
   type: openapi
   url: https://raw.githubusercontent.com/joseviniciusnunes/api-teste-node-express/master/doc.yaml
