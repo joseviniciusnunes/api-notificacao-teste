@@ -5,20 +5,8 @@ metadata:
   annotations:
     github.com/project-slug: joseviniciusnunes/teste-react  
     backstage.io/techdocs-ref: dir:.   
+    backstage.io/api-definition-openapi: ./doc.yaml
 spec:
-  type: openapi
+  type: service
   lifecycle: beta
   owner: team-d
-  definition: |
-      openapi: "3.0.0"
-      info:
-        version: 1.0.0
-        title: Artist API
-        license:
-          name: MIT
-      servers:
-        - url: http://artist.spotify.net/v1
-      paths:
-        /artists:
-          get:
-            summary: List all artists
