@@ -19,4 +19,5 @@ metadata:
     backstage.io/techdocs-ref: dir:.   
 spec:
   type: openapi
+  lifecycle: beta
   url: https://raw.githubusercontent.com/joseviniciusnunes/api-teste-node-express/master/doc.yaml
