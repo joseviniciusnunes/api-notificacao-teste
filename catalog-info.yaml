@@ -1,15 +1,3 @@
-#apiVersion: backstage.io/v1alpha1
-#kind: Component
-#metadata:
-#  name: teste-api-node
-#  annotations:
-#    github.com/project-slug: joseviniciusnunes/teste-react  
-#    backstage.io/techdocs-ref: dir:.    
-#spec:
-#  type: service
-#  lifecycle: beta
-#  owner: team-d
-#---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
