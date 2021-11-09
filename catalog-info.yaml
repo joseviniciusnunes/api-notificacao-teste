@@ -6,7 +6,7 @@ metadata:
     github.com/project-slug: joseviniciusnunes/teste-react  
     backstage.io/techdocs-ref: dir:.   
 spec:
-  type: service
+  type: openapi
   lifecycle: beta
   owner: team-d
   definition: |
