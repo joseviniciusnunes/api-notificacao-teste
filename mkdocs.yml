@@ -1,9 +1,8 @@
-site_name: 'Backstage'
-site_description: 'Main documentation for Backstage features and platform APIs'
+site_name: 'API de Notificação'
+site_description: 'Documentação base para api de notificação'
 
 plugins:
   - techdocs-core
 
 nav:
-  - Overview:
-      - What is Backstage?: 'index.md'
+  - Introdução: 'index.md'
