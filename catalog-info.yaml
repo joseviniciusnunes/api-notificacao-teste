@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: teste-api-node
+  name: api-notificacao-teste
   annotations:
-    github.com/project-slug: joseviniciusnunes/teste-react  
+    github.com/project-slug: joseviniciusnunes/api-notificacao-teste  
     backstage.io/techdocs-ref: dir:.   
 spec:
   type: openapi
   lifecycle: production
-  owner: team-d
+  owner: time-app-cooperado
   definition: |
     openapi: "3.0.0"
     info:
