@@ -10,4 +10,4 @@ spec:
     lifecycle: production
     owner: petstore@example.com
     definition:
-        $yaml: https://github.com/joseviniciusnunes/api-notificacao-teste/blob/master/openapi.yaml
+        $text: https://github.com/joseviniciusnunes/api-notificacao-teste/blob/master/openapi.yaml
