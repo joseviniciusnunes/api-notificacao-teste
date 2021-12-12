@@ -10,4 +10,4 @@ spec:
     lifecycle: production
     owner: time-app-cooperado
     definition:
-        $yaml: ./doc.yaml
+        $yaml: ./openapi.yaml
