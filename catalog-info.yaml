@@ -1,13 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-    name: api-notificacao-teste
+  name: api-notificacao-teste
+  description: Api de teste backstage
     annotations:
         github.com/project-slug: joseviniciusnunes/api-notificacao-teste
         backstage.io/techdocs-ref: dir:.
 spec:
-    type: openapi
-    lifecycle: production
-    owner: time-app-cooperado
-    definition:
-        $yaml: ./openapi.yaml
+  type: openapi
+  lifecycle: production
+  owner: time-app-cooperado
+  definition:
+    $text: https://petstore.swagger.io/v2/swagger.json
