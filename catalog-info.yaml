@@ -8,6 +8,6 @@ metadata:
 spec:
     type: openapi
     lifecycle: production
-    owner: time-app-cooperado
+    owner: petstore@example.com
     definition:
-        $yaml: ./openapi.yaml
+        $text: https://petstore.swagger.io/v2/swagger.json
